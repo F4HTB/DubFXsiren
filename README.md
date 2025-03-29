@@ -13,7 +13,7 @@ A DIY **dub siren** synth built on an **ESP32** with real-time audio synthesis, 
 - **Delay effect** with interpolation and dynamic feedback control
 - Built-in **ASR envelope** (Attack–Sustain–Release)
 - High-quality **I2S stereo output** (96 kHz / 16-bit)
-- Real-time control via 4 potentiometers and 6 buttons
+- Real-time control via 4 potentiometers, 2 buttons and 2 Switchs
 - Status LED indicates Delay activity
 
 ## ⚙️ Hardware Requirements
@@ -119,4 +119,8 @@ A DIY **dub siren** synth built on an **ESP32** with real-time audio synthesis, 
 ![DubFXsiren](DubFXsiren.jpg)
 ![DubFXsiren_inside](DubFXsiren_inside.jpg)
 
-Strongly inspired by https://github.com/ChrisBall/Dub-Siren-Files
+Strongly inspired by :
+-https://github.com/ChrisBall/Dub-Siren-Files
+-https://todbot.com/blog/2023/05/16/cheap-stereo-line-out-i2s-dac-for-circuitpython-arduino-synths/
+-https://github.com/pschatzmann/ESP32-A2DP/wiki/External-DAC
+-https://macsbug.wordpress.com/wp-content/uploads/2021/02/pcm5102a_dac_schematic.pdf
