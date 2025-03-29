@@ -88,8 +88,8 @@ A DIY **dub siren** synth built on an **ESP32** with real-time audio synthesis, 
 | Pot 4          | Delay feedback (with saturation control)          |
 | Button 1       | Trigger sound                                     |
 | Button 2       | Mod reset / Drop                                  |
-| Buttons 3 & 4  | Mod waveform: sine / saw / square                 |
-| Buttons 5 & 6  | Main waveform: sine / saw / square                |
+| Switch 1       | Mod waveform: sine / saw / square                 |
+| Switch 2       | Main waveform: sine / saw / square                |
 
 ## 🔈 Audio Specs
 
@@ -120,7 +120,7 @@ A DIY **dub siren** synth built on an **ESP32** with real-time audio synthesis, 
 ![DubFXsiren_inside](DubFXsiren_inside.jpg)
 
 Strongly inspired by :
--https://github.com/ChrisBall/Dub-Siren-Files
--https://todbot.com/blog/2023/05/16/cheap-stereo-line-out-i2s-dac-for-circuitpython-arduino-synths/
--https://github.com/pschatzmann/ESP32-A2DP/wiki/External-DAC
--https://macsbug.wordpress.com/wp-content/uploads/2021/02/pcm5102a_dac_schematic.pdf
+  https://github.com/ChrisBall/Dub-Siren-Files
+  https://todbot.com/blog/2023/05/16/cheap-stereo-line-out-i2s-dac-for-circuitpython-arduino-synths/
+  https://github.com/pschatzmann/ESP32-A2DP/wiki/External-DAC
+  https://macsbug.wordpress.com/wp-content/uploads/2021/02/pcm5102a_dac_schematic.pdf
